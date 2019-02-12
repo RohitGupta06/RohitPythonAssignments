@@ -1,0 +1,11 @@
+Guess the output of the following statements considering the following declarartions
+r = s = t = 5
+avg = r + s + t / 3
+Evaluate the above expression manually and find the value of avg.
+
+Sol.    avg = r + s + t / 3
+	'/' operator has more precedence than '+'. So solving using brackets().
+	avg = 5 + 5 + (5 /3)
+	avg = 5 + 5 + 1.66666667
+	avg = 10 + 1.66666667
+	avg = 11.66666667	 

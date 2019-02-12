@@ -1,0 +1,46 @@
+Evaluate the following expressions manually:
+
+a.) a = 4, b = 2, x = 5, y = 4
+    result = 5 * b * b * x - 3 * a * y * y - 8 * b * b * x + 10 * a * y
+
+Sol a.  result = 5 * b * b * x - 3 * a * y * y - 8 * b * b * x + 10 * a * y 
+	Associativity will be from left to right. So solving using brackets:
+	
+	result = (((5 * b) * b) * x) - (((3 * a) * y) * y) - (((8 * b) * b) * x) + ((10 * a) * y)
+	Assigning values of a, b , x, y
+	result = (((5 * 2) * 2) * 5) - (((3 * 4) * 4) * 4) - (((8 * 2) * 2) * 5) + ((10 * 4) * 4)
+	result = ((10 * 2) * 5) - ((12 * 4) * 4) - ((16 * 2) * 5) + (40 * 4)
+	result = (20 * 5) - (48 * 4) - (32 * 5) + 160
+	result = 100 - 192 - 160 + 160
+	result = -92 - 160 + 160
+	result = -92
+
+ 
+b.) a = 2, y = 3, c = 7
+    calc = 4 * a * y / c - a * y / c
+
+Sol b.  calc = 4 * a * y / c - a * y / c
+	Associativity will be from left to right. So solving using brackets:
+
+	calc = (((4 * a) * y) / c) - ((a * y) / c)
+	Assigning values of a, b , c
+	calc = (((4 * 2) * 3) / 7) - ((2 * 3) / 7)
+	calc = ((8 * 3) / 7) - (6 / 7)
+	calc = (24 / 7) - 0.857142857
+	calc = 3.42857143 - 0.857142857
+	calc = 2.57142857
+
+
+c.) a = 4.4, b = 0.0, c = 4.2, y = 3.0
+    ans = c + a * y * y / b
+
+Sol c.  ans = c + a * y * y / b
+	Associativity will be from left to right. So solving using brackets:
+
+	ans = c + (((a * y) * y) / b)
+	Assigning values of a, b , c, y
+	ans = 4.2 + (((4.4 * 3.0) * 3.0) / 0.0)
+	ans = 4.2 + ((13.2 * 3.0) / 0.0)
+	ans = 4.2 + (39.6 / 0.0)
+	ans = 4.2 + infinity or can't be divided by zero
+	ans = infinity or can't be divided by zero

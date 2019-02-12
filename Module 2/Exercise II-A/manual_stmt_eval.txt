@@ -1,0 +1,17 @@
+Consider the following statement:
+a = 4 * 3 / 4 + 4 / 4 + 8 - 2 + 5 / 8
+Evaluate this expression manually and then find the value of a?
+
+Sol.    a = 4 * 3 / 4 + 4 / 4 + 8 - 2 + 5 / 8
+	Here '*' operator and '/' operator have same precedence. Therefore, 
+	we will see the associativity, i.e. from Left to Right.
+	
+	So Let's solve the expression using brackets().
+	a = ((4 * 3) / 4) + (4 / 4) + 8 - 2 + (5 / 8)
+	a = (12 / 4) + 1 + 8 - 2 + 0.625
+	a = 3 + 1 + 8 - 2 + 0.625
+	a = 4 + 8 - 2 + 0.625
+	a = 12 - 2 + 0.625
+	a = 10 + 0.625
+	a = 10.625
+Ans. The value of a is 10.625
